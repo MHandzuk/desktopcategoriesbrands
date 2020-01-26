@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_1">
+        <div class="header">
+          <a href="#" class="home">home</a>
+          <div class="no-name">/</div>
+          <a href="#" class="men_1">men</a>
+        </div>
+        <div class="right">
+          <button class="accordion">gender</button>
+          <div class="panel" id="gender">
+            <input type="checkbox" class="gender_1" checked /> Men <br />
+            <input type="checkbox" class="gender_2" /> Women <br />
+          </div>
+          <button class="accordion">price</button>
+          <div class="panel" id="price">
+            <p>
+              <input
+                type="text"
+                id="amount"
+                readonly
+                style="border:0; color:#140202; font-weight:normal; "
+              />
+            </p>
+            <div id="slider-range"></div>
+          </div>
+
+          <button class="accordion">product type</button>
+          <div class="panel"></div>
+          <button class="accordion">clothing size</button>
+          <div class="panel"></div>
+          <button class="accordion">footwear size</button>
+          <div class="panel"></div>
+        </div>
+        <div class="left">
+          <div class="one">
+            <div class="one_1">
+              <div class="box">
+                <img
+                  class="image"
+                  src="img/ad5cff13ce107382ff45cf06a156f62c_1474x1474 2.svg"
+                  alt=""
+                />
+              </div>
+
+              <div class="middle fadeIn-top">
+                <span class="top-right">FREE SHIPPING</span>
+                <div class="centered">
+                  <span centered_1>Size in Stock: </span>
+                  <span class="centered_2"
+                    ><a href=""><p class="smlx">S M L XL</p></a></span
+                  >
+                </div>
+                <div class="bottom_centered">
+                  <a href=""
+                    ><img
+                      src="img/shopping cart.svg"
+                      class="bottom_centered_1"
+                      alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="img/Vector.svg" class="bottom_centered_2" alt=""
+                  /></a>
+                </div>
+              </div>
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+            <div class="one_2">
+              <img
+                src="img/ad5cff13ce107382ff45cf06a156f62c_1474x1474 2.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+            <div class="one_3">
+              <img
+                src="img/ad5cff13ce107382ff45cf06a156f62c_1474x1474 2.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+          </div>
+          <div class="two">
+            <div class="two_1">
+              <img
+                src="img/2cb0af673bad929aa5e1b136e521bf62_1474x1474 1.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+            <div class="two_2">
+              <img
+                src="img/51bf678b98b7e345a51d04b222c1dca3_436x436 1.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+            <div class="two_3">
+              <img
+                src="img/c838f7cc84a733f5321884b3819e3eeb_1474x1474 1.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+          </div>
+          <div class="three">
+            <div class="three_1">
+              <img
+                src="img/b7c69394950f9e03eaf4d15b525844e9_1474x1474 1.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+            <div class="three_2">
+              <img
+                src="img/b7c69394950f9e03eaf4d15b525844e9_1474x1474 1.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+            <div class="three_3">
+              <img
+                src="img/b7c69394950f9e03eaf4d15b525844e9_1474x1474 1.svg"
+                alt=""
+              />
+              <p>Basic Stussy Black T-Shirt</p>
+              <p class="backs">35$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <!-- 1. Подключим библиотеку jQuery (без нее jQuery UI не будет работать) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <!-- 2. Подключим jQuery UI -->
+    <link
+      href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  </body>
+</html>
