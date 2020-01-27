@@ -1,3 +1,4 @@
+// меню акордеон
 var acc = document.getElementsByClassName("accordion");
 var i;
 
